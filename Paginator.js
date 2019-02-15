@@ -5,11 +5,11 @@ sap.ui.define([
 	return Control.extend("ExemploJacob.controls.Paginator", {
 		metadata : {
             properties : {
-                tittleAllPages : {type: "string", defaultValue: "Todas a páginas"},
-				count: 	{type : "int", defaultValue : 1},			
+                tittleAllPages: {type: "string", defaultValue: "Todas a páginas"},
+				count: {type : "int", defaultValue : 1},			
 				previousText: 	{type : "string", defaultValue : ""},			
-				nextText: 	{type : "string", defaultValue : ""},			
-                currentPage: 	{type : "int", defaultValue :1},	
+				nextText: {type : "string", defaultValue : ""},			
+                currentPage: {type : "int", defaultValue :1},	
                 width: {
                     type: "sap.ui.core.CSSSize", 
                     defaultValue: "100%" 
