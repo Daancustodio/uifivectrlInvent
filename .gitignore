@@ -4,5 +4,4 @@
 */obj
 .lib/*
 node_modules/*
-dist/*
 web.config
