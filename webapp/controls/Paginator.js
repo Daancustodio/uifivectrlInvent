@@ -2,7 +2,7 @@ sap.ui.define([
     "sap/ui/core/Control",
 ], function (Control) {
 	"use strict";
-	return Control.extend("ExemploJacob.controls.Paginator", {
+	return Control.extend("InventCustomControls.controls.Paginator", {
 		metadata : {
             properties : {
                 tittleAllPages: {type: "string", defaultValue: "Todas a páginas"},

@@ -1,9 +1,9 @@
 sap.ui.define([
     "sap/m/SearchField",
-    "ExemploJacob/model/formatter"
+    "InventCustomControls/model/formatter"
 ], function (SearchField, formatter) {
 	"use strict";
-	return SearchField.extend("ExemploJacob.controls.CenterCostsSearch", {
+	return SearchField.extend("InventCustomControls.controls.CenterCostsSearch", {
 		metadata : {
             properties : {
 				dimension: 	{type : "int", defaultValue :-1}
