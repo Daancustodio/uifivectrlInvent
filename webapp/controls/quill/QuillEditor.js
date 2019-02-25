@@ -44,12 +44,15 @@ sap.ui.define([
 			});
 
 			this.setValue = function (value, changedByUser = false) {
-				
-				if(!changedByUser)
-					this.quill.clipboard.dangerouslyPasteHTML(value);
+                
+                if(!value)
+					value = '';
+					
+                if(!changedByUser)
+                    this.quill.clipboard.dangerouslyPasteHTML(value);
 
-				this.setProperty('value', value)
-			}
+                this.setProperty('value', value)
+            }
 		},
 
 		renderer: function (oRM, oControl) {
